@@ -51,7 +51,7 @@ class Home extends Component{
     
     const filterPosts = !!searchValue ? 
       posts.filter(post => {
-        return post.title.toLowerCase().includes(searchValue. toLowerCase())
+        return post.title.toLowerCase().includes(searchValue.toLowerCase())
       }) 
       : 
       posts;
